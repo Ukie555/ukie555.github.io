@@ -13,7 +13,7 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 ## WORK EXPERIENCE
 
 ### JD Logistics, Inc.(JD.com)
-_Data Analyst and Product Manager (07/2020 - Present)_
+**_Data Analyst and Product Manager (07/2020 - Present)_**
 
 - Strategy optimization: Participate in the design of order positioning strategy and goods picking strategy in the warehouse, improve the efficiency of warehousing operations
 - Logistics System Planning: Plan the Logistics System of JD's self-operating retail business
@@ -25,7 +25,7 @@ _Data Analyst and Product Manager (07/2020 - Present)_
 - Data Analysis: Extract data by using SQL / Competitive analysis
 
 ### Xiaomi Technology Co.Ltd
-_Logitics Operation and planning Manager (05/2017 - 07/2020)_
+**_Logitics Operation and planning Manager (05/2017 - 07/2020)_**
 
 **National warehouse system construction:**
 - Business planning: completed the construction of Xiaomi logistics warehousing business from 0 to 1, including system and organizational structure division
@@ -44,8 +44,8 @@ _Logitics Operation and planning Manager (05/2017 - 07/2020)_
 **Supplier management:**
 - Manage the operation quality and KPI monitoring of 7 RDC/FDC outsourcing suppliers
 
-## JD Mall Group(JD.com)
-_Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_
+### JD Mall Group(JD.com)
+**_Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_**
 
 - Use AutoCAD and Sketch Up to make 3D warehouse drawings of 9 warehouses with a total of 180,000 square meters
 - Use Clementine to mine, model and process data, and then use SPSS for regression analysis
@@ -89,11 +89,9 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 
 
 
-## RESEARCH EXOERIENCE
+## RESEARCH EXPERIENCE
 
-**Research on system optimization of pharmaceutical logistics distribution center(01/2017 - 05/2017)**
-
-_Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics distribution Center [N]. Journal of Modern Logistics of Beijing Union University. F426.72_
+**_Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics distribution Center [N]. Journal of Modern Logistics of Beijing Union University. F426.72_**
 
 - Location of distribution center: Based on ant colony algorithm and combined with geographical factors, 2 pharmaceutical logistics distribution centers were selected to ensure the shortest transportation path to the 40 hospitals in Beijing
 -Use AutoCAD to make warehouse maps of 2 medical distribution centers
@@ -101,9 +99,7 @@ _Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics 
 - Based on the actual warehouse CAD, the algorithm in the warehouse is verified, and the picking path in the warehouse is optimized with FlexSim simulation software, which improves the efficiency by 13%
 - AnyLogic simulation software was used to simulate two schemes for the pharmaceutical distribution path in Beijing: judging the transport path by the shortest path and the degree of drug emergency;
 
-**Design of temperature and humidity monitoring system for grain storage environment based on wireless sensor network(09/2016-11/2016)**
-
-_Gao Chen, ZHANG Siqi, ZHANG Rui, Wang Xiuying, LIU Jingyun. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9; TP274_
+**_Gao Chen, ZHANG Siqi, ZHANG Rui, Wang Xiuying, LIU Jingyun. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9; TP274_**
 
 - System construction: The structure of temperature and humidity monitoring system for grain storage includes two parts: upper computer and lower computer. Based on the upper computer using Qt platform (C++) software system development, and connected with the database, data storage. The lower computer is composed of temperature and humidity wireless sensor nodes. The temperature and humidity data are collected and transmitted to the upper computer through the wireless sensor network
 - The database platform was built through SQL Server and the software system of temperature and humidity monitoring system for finished grain was designed to improve the efficiency, real-time and accuracy of warehouse environmental monitoring
