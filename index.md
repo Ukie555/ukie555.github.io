@@ -10,9 +10,9 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 - Personality: INTJ
 - Skills: SQL/Python/PPT/Excel
 
-### WORK EXOERIENCE
+## WORK EXOERIENCE
 
-## JD Logistics, Inc.(JD.com)
+### JD Logistics, Inc.(JD.com)
 _Data Analyst and Product Manager (07/2020 - Present)_
 
 - Logistics System Planning: Plan the Logistics System of JD's self-operating retail business
@@ -23,7 +23,7 @@ _Data Analyst and Product Manager (07/2020 - Present)_
 - BRD Writing:Output BRD documents, follow up UAT, continuously optimize system functions
 - Data Analysis: Extract data by using SQL / Competitive analysis
 
-## Xiaomi Technology Co.Ltd
+### Xiaomi Technology Co.Ltd
 _Logitics Operation and planning Manager (05/2017 - 07/2020)_
 
 **National warehouse system construction:**
@@ -52,12 +52,12 @@ _Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_
 - Operate mobile warehouse management platform and mini warehouse operation platform, mainly conduct a series of tests on the internal allocation, delivery, acceptance and so on of goods in mobile warehouse, and monitor the operation of KPI index in seven regions of the country
 
 
-### PROJECT EXPERIENCE
+## PROJECT EXPERIENCE
 
 
 
 
-### CERTIFICATE
+## CERTIFICATE
 
 - 03/2016  CLFP - Logistics Division Level Certification - Intermediate Logistics Division(1620100002)
 - 03/2016  Omron industrial automation skills certificate(PXIAB160501001)
@@ -68,7 +68,7 @@ _Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_
 - 06/2021  Microsoft Certified: Platform Fundamentals(H847-4614)
 - 06/2021  PMP: Project Management Professional(PMP Number:3112138)
 
-### PERSONAL SKILLS
+## PERSONAL SKILLS
 
 - Data Analysis: SQL, SPSS
 - Design Software: Auto CAD, Sketch Up, Axure, X-Mind
