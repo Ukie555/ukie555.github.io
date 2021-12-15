@@ -2,7 +2,12 @@
 
 You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Data Analyst and Product Manager @JD Logistics
+- Build Xiaomi Logistics warehousing operation system From 0 to 1 @Xiaomi Logistics
+- Product Design/Data Analysis/Supply Chain Management
+- Work Background: 4-year working experience in a Fortune 500 private enterprise, good at Data Analysis, Planning, Product and System
+- Personality: INTJ
+- Skills: SQL/Python/PPT/Excel
 
 ### Markdown
 
