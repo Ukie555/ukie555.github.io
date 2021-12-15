@@ -55,25 +55,32 @@ _Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_
 
 ## PROJECT EXPERIENCE
 
-### JD Logistics - Digital Warehouse LV System Optimization (03/2021-07/2021)
+#### JD Logistics - Digital Warehouse LV System Optimization (03/2021-07/2021)
 **Project Description:**
 - Based on the operation situation of the Supply Chain Department of JD, optimize the display of business volume data, refine the indicators of each operation link, develop the human efficiency base value, develop early warning strategies, and realize the online view of mobile APP.
+
 **Project planning & execution:**
+
 _As the business data system planner, deeply investigated the pain points of data use by the front-line managers and optimized the logic of data indicators and data presentation according to the requirements._
+
 - Data screen design: Based on the business data display screen, the warning value logic is sorted out, which can monitor the human efficiency data, order clearance rate data in each link of the warehousing operation. Give suggestions and guidance to ensure the operation efficiency.
 - Logical analysis of human efficiency data: Through different categories of warehouse and different first and second category planning rules, maintain the efficiency value of each operation post to control personnel attendance to reduce personnel costs.
 - Abnormal monitoring: Display different links of orders that have not been operated for a long time to see the details of orders.
+
 **Project revenue:**
 - Launch data Kanban according to different positions and levels, increase the early-warning setting, and realize data decision-making.
 
-### Xiaomi - Construction of National Warehouse Operation Management System (10/2017 - 02/2019)
+#### Xiaomi - Construction of National Warehouse Operation Management System (10/2017 - 02/2019)
 **Project description:**
 - Due to the variable characteristics of Xiaomi logistics business, I made a comprehensive review of the warehousing operation process in this process.
+
 **Project planning & execution:**
+
 _As the project manager, consolidate Xiaomi logistics operation characteristics about 1 year, through the analysis of Xiaomi commodity attributes and the purchasing power analysis of B2C/B2B channel customers, cooperated the 7 regions of the China to optimize the process and system in the warehouse, cooperated the transportation department of the headquarters to introduce urban distribution resources and sub-load resources._
 - National warehouse operation management: Responsible for the storage operation planning and management of 10 RDCs and 19 FDCs in Xiaomi's 7 regions, with a management team of over 500 people; Build the national Xiaomi logistics warehousing capacity from 0 to 1 (Order making: use group set single algorithm to optimize the order structure; Pick goods: the shortest path method to plan the path in the warehouse, shorten the time of picking goods; Distribution: create box matching algorithm to recommend consumables, save consumables cost; Sorting out of the warehouse: the original "pre-delivery" link, reduce the pressure of storage and distribution handover, shorten the handover time).
 - Warehouse cost system structure: In order to control Xiaomi proprietary storage, the average cost of human cost, material cost, at the same time with outsourcing warehouse operation cost of real-time monitoring and comparison, the inventory cost to build the national system, and according to the monthly/semi-annual/annual review, guide the seven regional analyses to improve, a lower cost 0.11 yuan/piece in the whole country.
 - System optimization: Optimized the WMS3.0 system of Xiaomi Logistics, put forward more than 40 system requirements within a year, and improved operation efficiency by 23%; Based on the characteristics of millet logistics from 0 to 1 design millet logistics WMS Pro system, currently version 1.0 has been used in the standard parts warehouse.
+
 **Project income:**
 - Build Xiaomi B2B warehouse operation management system from 0 to 1;
 - Develop Xiaomi warehouse operation KPI assessment scheme from 0 to 1;
@@ -85,6 +92,7 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 ## RESEARCH EXOERIENCE
 
 **Research on system optimization of pharmaceutical logistics distribution center(01/2017 - 05/2017)**
+
 _Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics distribution Center [N]. Journal of Modern Logistics of Beijing Union University. F426.72_
 
 - Location of distribution center: Based on ant colony algorithm and combined with geographical factors, 2 pharmaceutical logistics distribution centers were selected to ensure the shortest transportation path to the 40 hospitals in Beijing
@@ -94,6 +102,7 @@ _Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics 
 - AnyLogic simulation software was used to simulate two schemes for the pharmaceutical distribution path in Beijing: judging the transport path by the shortest path and the degree of drug emergency;
 
 **Design of temperature and humidity monitoring system for grain storage environment based on wireless sensor network(09/2016-11/2016)**
+
 _Gao Chen, ZHANG Siqi, ZHANG Rui, Wang Xiuying, LIU Jingyun. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9; TP274_
 
 - System construction: The structure of temperature and humidity monitoring system for grain storage includes two parts: upper computer and lower computer. Based on the upper computer using Qt platform (C++) software system development, and connected with the database, data storage. The lower computer is composed of temperature and humidity wireless sensor nodes. The temperature and humidity data are collected and transmitted to the upper computer through the wireless sensor network
