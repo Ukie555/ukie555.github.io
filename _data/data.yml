@@ -22,6 +22,13 @@ sidebar:
 
       - idiom: English
         level: Fluent
+    
+    skills:
+      - item: Machine Learning
+        level:  
+
+      - item: Python
+        level: Sk-Learn, Pandas, Numpy
 
     skills:
       - item: Machine Learning
