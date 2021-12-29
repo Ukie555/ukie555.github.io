@@ -58,11 +58,46 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 
 ## PROJECT EXPERIENCE
 
-### DATA ANALYSIS TOPIC / ALGORITHM DESIGN / INFORMATION SYSTEM
+### DATA ANALYSIS / ALGORITHM / INFORMATION SYSTEM
 
 #### JD Logistics-5G Smart Park- License Plate Recognition(10/2021-12/2012)
 - Through the continuous recognition and learning of 0 to 1 and A to Z, and the character recognition of the license plate number. And use K-NN algorithm to automatically recognize and transform the segmented character image
 - **Conclusion:** The test training set ranges from 10 to 2000, and the accuracy ranges from 0.5633 to 0.7220. Finally applied to the JD Logistics digital platform to monitor vehicle throughput
+
+'''
+import seaborn as sns
+sns.set()
+
+k_range = range(1, 10)
+acc_lst = list()
+for k in k_range:
+    clf = KNeighborsClassifier(k)
+    clf.fit(x_train, y_train)
+    p_test = clf.predict(x_test)
+    accuracy = accuracy_score(p_test, y_test)
+    acc_lst.append(accuracy)
+    print('K: {}, accuracy: {:<.4f}'.format(k, accuracy))
+
+for weight in ['uniform', 'distance']:
+    for metric in ['euclidean', 'manhattan', 'chebyshev', 'minkowski']:
+        clf = KNeighborsClassifier(n_neighbors=2, weights=weight, metric=metric)
+        clf.fit(x_train, y_train)
+        p_test = clf.predict(x_test)
+        accuracy = accuracy_score(p_test, y_test)
+        acc_lst.append(accuracy)
+        print('weight: {}, metric: {}, accuracy: {:<.4f}'.format(weight, metric, accuracy))
+
+train_range = [10, 50, 100, 500, 1000, 2000]
+acc_lst = list()
+for train_num in train_range:
+    x_train, y_train = read_data(os.path.join(PREFIX, 'train'), max_num=train_num)
+    clf = KNeighborsClassifier(2)
+    clf.fit(x_train, y_train)
+    p_test = clf.predict(x_test)
+    accuracy = accuracy_score(p_test, y_test)
+    acc_lst.append(accuracy)
+    print('train: {}, accuracy: {:<.4f}'.format(train_num, accuracy))
+'''
 
 #### JD Logistics-Warehouse Strategy Optimization(07/2021-12/2021)
 - Aiming at the optimal number of task orders, total picking storage digits, picking lanes, and cross lanes as the goal, a Multi-Objective Planning Algorithm based on savings gains is used to optimize the warehouse picking path 
@@ -72,6 +107,97 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 #### Xiaomi Logistics-National Warehousing Network Planning(03/2018-05/2020)
 - Use Python crawlers to extract warehouse service information, and use Sklearn to establish correlation analysis with Xiaomi business, and then	 select warehouse locations to increase product coverage (that is, to ensure that orders in various regions can meet user needs). Finally output a national warehouse network planning plan
 - **Conclusion:** The national product coverage increased by 5%
+
+'''
+import scipy
+import sklearn
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+# tf/idf 处理文本特征
+word_model = TfidfVectorizer(stop_words='english')
+train_X = word_model.fit_transform(train_df['reviewText'])
+test_X = word_model.transform(test_df['reviewText']) 
+
+# 拼上总评分特征
+train_X = scipy.sparse.hstack([train_X, train_df['overall'].values.reshape((-1, 1)) / 5])
+test_X = scipy.sparse.hstack([test_X, test_df['overall'].values.reshape((-1, 1)) / 5])
+
+from sklearn import svm
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import BernoulliNB
+from sklearn.calibration import CalibratedClassifierCV
+
+def construct_clf(clf_name):
+    clf = None
+    if clf_name == 'SVM':
+        clf = svm.LinearSVC()
+    elif clf_name == 'DTree' :
+        clf = DecisionTreeClassifier(max_depth=10, class_weight='balanced')
+    elif clf_name == 'NB' :
+        clf = BernoulliNB()
+    clf = CalibratedClassifierCV(clf, cv=2, method='sigmoid')
+    return clf
+
+class Bagging(object):
+    def __init__(self, clf, num_iter):
+        self.clf = clf
+        self.num_iter = num_iter
+        
+    def fit_predict(self, X, Y, test_X):
+        result = np.zeros(test_X.shape[0])
+        train_idx = np.arange(len(Y))
+        for i in range(self.num_iter):
+            sample_idx = np.random.choice(train_idx, size=len(Y), replace=True)  # Bootstrap
+            sample_train_X = X[sample_idx]
+            sample_train_Y = Y[sample_idx]
+            self.clf.fit(sample_train_X, sample_train_Y)
+            print('Model {:>2d} finish!'.format(i))
+            predict_proba = self.clf.predict_proba(test_X)[:, 1]
+            result += predict_proba  
+        result /= self.num_iter
+        return result
+
+class AdaBoostM1(object):
+    def __init__(self, clf, num_iter):
+        self.clf = clf
+        self.num_iter = num_iter
+        
+    def fit_predict(self, X, Y, test_X):
+        result_lst, beta_lst = list(), list()
+        num_samples = len(Y)
+        weight = np.ones(num_samples)
+        for i in range(self.num_iter):
+            self.clf.fit(X, Y, sample_weight=weight)
+            print('Model {:<2d} finish!'.format(i))
+            train_predict = self.clf.predict(X)
+            error_flag = train_predict != Y
+            error = weight[error_flag].sum() / num_samples
+            if error > 0.5:
+                break
+            beta = error / (1 - error)
+            weight *= (1.0 - error_flag) * beta + error_flag
+            weight /= weight.sum() / num_samples
+            beta_lst.append(beta)
+            predict_proba = self.clf.predict_proba(test_X)[:, 1]
+            result_lst.append(predict_proba)
+        beta_lst = np.log(1 / np.array(beta_lst))
+        beta_lst /= beta_lst.sum()
+        print('\nVote Weight:\n', beta_lst)
+        result = (np.array(result_lst) * beta_lst[:, None]).sum(0)
+        return result
+
+# result
+np.random.seed(0)
+clf = construct_clf('SVM')  # DTree, SVM, NB
+# runner = Bagging(clf, 10)
+runner = AdaBoostM1(clf, 10)
+y_predict = runner.fit_predict(train_X.tocsr(), train_df['label'], test_X.tocsr())
+
+result_df = pd.DataFrame()
+result_df['Id'] = test_df['Id'].values
+result_df['Predicted'] = y_predict
+result_df.to_csv('./result.csv', index=False)
+'''
 
 #### Beijing Union University-Construction of Temperature and Humidity Monitoring System(09/2016-11/2016)
 - System construction: The upper computer uses the Qt platform (C++) for software system development, and connects with the database to realize data storage
