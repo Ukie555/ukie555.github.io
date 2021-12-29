@@ -85,6 +85,7 @@ for weight in ['uniform', 'distance']:
         acc_lst.append(accuracy)
         print('weight: {}, metric: {}, accuracy: {:<.4f}'.format(weight, metric, accuracy))
 
+# train
 train_range = [10, 50, 100, 500, 1000, 2000]
 acc_lst = list()
 for train_num in train_range:
