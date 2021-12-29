@@ -108,17 +108,15 @@ for train_num in train_range:
 - Use Python crawlers to extract warehouse service information, and use Sklearn to establish correlation analysis with Xiaomi business, and then	 select warehouse locations to increase product coverage (that is, to ensure that orders in various regions can meet user needs). Finally output a national warehouse network planning plan
 - **Conclusion:** The national product coverage increased by 5%
 
-'''
+```
 import scipy
 import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# tf/idf 处理文本特征
 word_model = TfidfVectorizer(stop_words='english')
 train_X = word_model.fit_transform(train_df['reviewText'])
 test_X = word_model.transform(test_df['reviewText']) 
 
-# 拼上总评分特征
 train_X = scipy.sparse.hstack([train_X, train_df['overall'].values.reshape((-1, 1)) / 5])
 test_X = scipy.sparse.hstack([test_X, test_df['overall'].values.reshape((-1, 1)) / 5])
 
@@ -186,10 +184,8 @@ class AdaBoostM1(object):
         result = (np.array(result_lst) * beta_lst[:, None]).sum(0)
         return result
 
-# result
 np.random.seed(0)
 clf = construct_clf('SVM')  # DTree, SVM, NB
-# runner = Bagging(clf, 10)
 runner = AdaBoostM1(clf, 10)
 y_predict = runner.fit_predict(train_X.tocsr(), train_df['label'], test_X.tocsr())
 
@@ -197,7 +193,7 @@ result_df = pd.DataFrame()
 result_df['Id'] = test_df['Id'].values
 result_df['Predicted'] = y_predict
 result_df.to_csv('./result.csv', index=False)
-'''
+```
 
 #### Beijing Union University-Construction of Temperature and Humidity Monitoring System(09/2016-11/2016)
 - System construction: The upper computer uses the Qt platform (C++) for software system development, and connects with the database to realize data storage
