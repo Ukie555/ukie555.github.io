@@ -56,7 +56,7 @@
 
 ## PROJECT EXPERIENCE
 
-### DATA ANALYSIS / ALGORITHM / INFORMATION SYSTEM
+### DATA ANALYSIS / ALGORITHM / SYSTEM
 
 #### JD Logistics-5G Smart Park- License Plate Recognition(10/2021-12/2012)
 - Through the continuous recognition and learning of 0 to 1 and A to Z, and the character recognition of the license plate number. And use K-NN algorithm to automatically recognize and transform the segmented character image
