@@ -1,7 +1,5 @@
 ## Welcome to Chen Gao's Homepage
 
-You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
 **Work Background:**
 - 5-year working experience in two Fortune 500 enterprises
 - Business Analysis and Product Design @JD Logistics, Beijing, China
