@@ -29,7 +29,7 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 ### [Xiaomi Technology Co.Ltd](https://www.mi.com/), Beijing, China
 **_Logitics Operation and planning Manager (05/2017 - 07/2020)_**
 
-**Team management**
+**Team management:**
 - Promoted to 4 consecutive levels within 2 years of work and became a manager
 - Lead a group of 3 people, and manage a dashed line with about 500 employees nationwide
 
