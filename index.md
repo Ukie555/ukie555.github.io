@@ -120,16 +120,16 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 
 ## HONORS & AWARDS      
                                                                         
-- 11/2021   Q3 Value Star, JD Logistics, Supply chain product group(top3%)	
-- 11/2017   Outstanding Project Award, China Federation of Logistics and Purchasing (top1%)	
-- 06/2017   Outstanding graduate, Beijing Union University (top3%)	
-- 06/2017   Outstanding Graduation Project, Beijing Union University (top3%)	
-- 12/2015   The **1st** prize in the competition of the 1st Logistics Design Contest, Beijing Union University(top1%)	
-- 11/2015   The **3rd** prize in the competition of the 4th Logistics Design Contest for Beijing University Students, Beijing Municipal Education Commission (top3%)	
-- 11/2015   Second-class Scholarship, Beijing Union University (top5%)	
-- 05/2015   The **3rd** prize for Band C in 2015 National English Competition for College, College English Teaching & Research Association of China(top3%)	
-- 12/2014   The **2nd** prize in Mathematics competition, Beijing Union University (top5%)	
-- 11/2014   Third-class Scholarship, Beijing Union University (top10%)	
+- 11/2021   Q3 Value Star, JD Logistics, Supply chain product group
+- 11/2017   Outstanding Project Award, China Federation of Logistics and Purchasing
+- 06/2017   Outstanding graduate, Beijing Union University
+- 06/2017   Outstanding Graduation Project, Beijing Union University
+- 12/2015   The **1st** prize in the competition of the 1st Logistics Design Contest, Beijing Union University
+- 11/2015   The **3rd** prize in the competition of the 4th Logistics Design Contest for Beijing University Students, Beijing Municipal Education Commission
+- 11/2015   Second-class Scholarship, Beijing Union University
+- 05/2015   The **3rd** prize for Band C in 2015 National English Competition for College, College English Teaching & Research Association of China
+- 12/2014   The **2nd** prize in Mathematics competition, Beijing Union University
+- 11/2014   Third-class Scholarship, Beijing Union University
 
 ## PERSONAL SKILLS
 
