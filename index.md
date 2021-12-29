@@ -2,55 +2,55 @@
 
 You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-- Data Analyst and Product Manager @JD Logistics
-- Build Xiaomi Logistics warehousing operation system From 0 to 1 @Xiaomi Logistics
-- Product Design/Data Analysis/Supply Chain Management
-- Work Background: 4-year working experience in a Fortune 500 private enterprise, good at Data Analysis, Planning, Product and System
-- PMP: Project Management Professional(PMP Number:3112138)
+**Work Background:**
+- 5-year working experience in two Fortune 500 enterprises
+- Business Analysis and Product Design @JD Logistics, Beijing, China
+- Build Xiaomi Logistics Operation System from 0 to 1 @Xiaomi Logistics, Beijing, China
+**Leadership:**
+- Leader of Warehouse Operation Planning Team in Xiaomi, with 3 direct subordinates
+- Leader of Supply Chain Process Planning Team in JD Logistics with 2 direct subordinates
+**Others:**
+- Product Design/Data Analysis/Operations Research/Machine Learning/Supply Chain Management
+- PMP: Project Management Professional (PMP Number:3112138)
 - Personality: INTJ
-- Skills: SQL/Python/PPT/Excel
+- [Badge Dashboard](https://www.credly.com/users/chen-gao.4f536ede)
 
 ## WORK EXPERIENCE
 
-### JD Logistics, Inc.(JD.com)
+### [JD Logistics, Inc.](https://www.jdl.cn/), Beijing, China
 **_Data Analyst and Product Manager (07/2020 - Present)_**
 
-- Strategy optimization: Participate in the design of order positioning strategy and goods picking strategy in the warehouse, improve the efficiency of warehousing operations
-- Logistics System Planning: Plan the Logistics System of JD's self-operating retail business
-- Warehouse Data System Planning: Design Logistics Data Display Screen
-- Category Planning: JD self-warehousing Commodity Logistics Attribute classification
-- Logistics Income Online: Self-operating value-added income and 3PL distribution income online
-- JDL Product Design: Responsible for product function and model design of warehouse
-- BRD Writing: Output BRD documents, follow up UAT, continuously optimize system functions
-- Data Analysis: Extract data by using SQL / Competitive analysis
+- **Warehouse Strategy Optimization:** Use Ant Colony Optimization and Saving Algorithm based on operations research to optimize the warehouse process of 600 warehouses and improve the efficiency of warehouse operations
+- **Business Analysis:** Use SQL for data extraction, use Python to perform Correlation Analysis on JD’s order characteristics and customer structure and other information, combine basic data to perform Regression Analysis, build Predictive Models, and formulate sales plans
+- **Data Product Design:** Use SQL to develop business data and build JD Logistics data visualization dashboards
 
-### Xiaomi Technology Co.Ltd
+### [Xiaomi Technology Co.Ltd](https://www.mi.com/), Beijing, China
 **_Logitics Operation and planning Manager (05/2017 - 07/2020)_**
+**Team management**
+- Promoted to 4 consecutive levels within 2 years of work and became a manager
+- Lead a group of 3 people, and manage a dashed line with about 500 employees nationwide
+
+**Predictive Analysis:**
+- **Large-scale Activity Order Volume Prediction:** Based on historical activity order volume, combined with sales policies, and promoted product categories, a Regression Model is established through Sklearn to predict the activity order volume and calculate the RMSE value
+- **Service Quality Prediction:** Evaluation feature values, and use two integrated learning algorithms (Bagging, AdaBoost.M1), combine with SVM and Decision Tree to predict the service quality of Xiaomi logistics
 
 **National warehouse system construction:**
-- Business planning: completed the construction of Xiaomi logistics warehousing business from 0 to 1, including system and organizational structure division
-- Operation management: responsible for storage operation planning and operation quality monitoring of Xiaomi's 10 RDCs and 19 FDCs nationwide
-- System management: output 20+ copies of SOP, and integrated publication of a Xiaomi logistics operation management manual, a total of 3.8W words
-- Data monitoring: from 0 to 1, made Xiaomi logistics and warehousing KPI, and built data model and report form
+- **Business Planning:** Through Cluster Analysis of regional order quantity and products, a feature vector is constructed reasonably to represent customer distribution and made plans to ensure that 95% of orders can arrive the next day
+- **Organizational Construction:** Build National Warehouse staff organization structure, reduce personnel costs by 15%
+- **Process Planning:** Write 20+ system process reports, publish Mi logistics information system management manual
+- **Business Analysis:** Use MySQL to store data, use Pandas to analyze business data, and develop KPIs of Xiaomi’s 10 RDCs and 19 FDCs across the country for warehousing operations
 
 **System product design:**
-- Optimized the WMS system and work order system of Xiaomi Logistics, optimized 40+ BRDs of the output system, and improved the working efficiency by 23%
-- Designed the WMS Pro system of Xiaomi Logistics from 0 to 1, designed the output interface, designed the function points, and followed up the on-line test
+- **System Function Optimization:** Optimize the functions of the system and increase the operating efficiency by 23%
+- **System upgrade:** Output interface design and function design of WMS Pro system, V1.0 has been online
 
-**Project management:**
-- Operation of large-scale activities: coordinated and organized the arrangement and resumption of large-scale activities such as the Rice Noodle Festival, 618, Double 11 and 12-12
-- Operation Outsourcing: Participated in moving 4 RDCs and 5 FDCs, from supplier selection, coordination of various departments to follow-up operation quality monitoring
-
-**Supplier management:**
-- Manage the operation quality and KPI monitoring of 7 RDC/FDC outsourcing suppliers
-
-### JD Mall Group(JD.com)
+### [JD Mall Group](https://www.jd.com/), Beijing, China
 **_Logitics Industrial Engineer - Intership (07/2016 - 04/2017)_**
 
-- Use AutoCAD and Sketch Up to make 3D warehouse drawings of 9 warehouses with a total of 180,000 square meters
-- Use Clementine to mine, model and process data, and then use SPSS for regression analysis
-- Optimize the picking path inside the warehouse with Flexsim simulation software, and increase the efficiency by 13%
-- Operate mobile warehouse management platform and mini warehouse operation platform, mainly conduct a series of tests on the internal allocation, delivery, acceptance and so on of goods in mobile warehouse, and monitor the operation of KPI index in seven regions of the country
+- Make 3D warehouse drawings of 9 warehouses with a total of 180,000m2 by using AutoCAD and Sketch Up
+- Extract data by using SQL, mine, model and process data by using Clementine, and use SPSS for regression analysis
+- Model and simulate the picking path in the warehouse with Flexsim, verify the shortest path algorithm based on Operations Research and improve the warehouse picking efficiency by 13%
+
 
 
 ## PROJECT EXPERIENCE
@@ -88,10 +88,9 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 - Warehouse service NPS increased by 8%; (5) The national average unit cost is reduced by 0.11 yuan/piece.
 
 
-
 ## RESEARCH EXPERIENCE
 
-**_Li Ping, Gao Chen. Research on system optimization of pharmaceutical logistics distribution Center [N]. Journal of Modern Logistics of Beijing Union University. F426.72_**
+**_Ping Li, Chen Gao. Research on system optimization of pharmaceutical logistics distribution Center [N]. Journal of Modern Logistics of Beijing Union University. 2017. F252; F426.72_**
 
 - Location of distribution center: Based on ant colony algorithm and combined with geographical factors, 2 pharmaceutical logistics distribution centers were selected to ensure the shortest transportation path to the 40 hospitals in Beijing
 -Use AutoCAD to make warehouse maps of 2 medical distribution centers
@@ -99,27 +98,41 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 - Based on the actual warehouse CAD, the algorithm in the warehouse is verified, and the picking path in the warehouse is optimized with FlexSim simulation software, which improves the efficiency by 13%
 - AnyLogic simulation software was used to simulate two schemes for the pharmaceutical distribution path in Beijing: judging the transport path by the shortest path and the degree of drug emergency;
 
-**_Gao Chen, ZHANG Siqi, ZHANG Rui, Wang Xiuying, LIU Jingyun. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9; TP274_**
+**_Chen Gao, Siqi Zhang, Rui Zhang, Xiuying Wang, Jingyun Liu. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9, TP274_**
 
 - System construction: The structure of temperature and humidity monitoring system for grain storage includes two parts: upper computer and lower computer. Based on the upper computer using Qt platform (C++) software system development, and connected with the database, data storage. The lower computer is composed of temperature and humidity wireless sensor nodes. The temperature and humidity data are collected and transmitted to the upper computer through the wireless sensor network
 - The database platform was built through SQL Server and the software system of temperature and humidity monitoring system for finished grain was designed to improve the efficiency, real-time and accuracy of warehouse environmental monitoring
 - Record and collect the data of grain temperature, and test it based on the storage environment;
 
+
 ## CERTIFICATE
 
-- 06/2021  Microsoft Certified: Platform Fundamentals(H847-4614)
-- 06/2021  PMP: Project Management Professional(PMP Number:3112138)
-- 04/2021  Microsoft Certified: Azure AI Fundamentals(H767-5629)
-- 02/2021  IBM Data Analysis and Visualization Foundations - Coursera(J9V63CJ75XE6)
-- 10/2020  IBM Data Science Professional Certificate - Coursera(TDBND5A6J7TM)
-- 02/2017  Zutaiwang application engineer certification
+- 06/2021  [PMP: Project Management Professional(PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
+- 06/2021  [Microsoft Certified: Platform Fundamentals(H847-4614)](https://www.credly.com/badges/eec36871-7ca2-4b3b-becf-e2b8764f0233)
+- 04/2021  [Microsoft Certified: Azure AI Fundamentals(H767-5629)](https://www.credly.com/badges/1687fb19-95f4-454e-a534-35fc8b043f0b)
+- 02/2021  [IBM Data Analysis and Visualization Foundations](https://coursera.org/share/6b2f8c5c0dd6bc0716a6311ef2355316) - Coursera(J9V63CJ75XE6)
+- 10/2020  [IBM Data Science Professional Certificate](https://coursera.org/share/8f009ab1e24a447a1ff6e0aea0df839d) - Coursera(TDBND5A6J7TM)
+- 02/2017  KingView application engineer certification
 - 03/2016  CLFP - Logistics Division Level Certification - Intermediate Logistics Division(1620100002)
 - 03/2016  Omron industrial automation skills certificate(PXIAB160501001)
+
+## HONORS & AWARDS      
+                                                                        
+- 11/2021  Q3 Value Star, JD Logistics, Supply chain product group(top3%)	
+- 11/2017  Outstanding Project Award, China Federation of Logistics and Purchasing (top1%)	
+- 06/2017  Outstanding graduate, Beijing Union University (top3%)	
+- 06/2017  Outstanding Graduation Project, Beijing Union University (top3%)	
+- 12/2015  The **1st** prize in the competition of the 1st Logistics Design Contest, Beijing Union University(top1%)	
+- 11/2015  The **3rd** prize in the competition of the 4th Logistics Design Contest for Beijing University Students, Beijing Municipal Education Commission (top3%)	
+- 11/2015  Second-class Scholarship, Beijing Union University (top5%)	
+- 05/2015  The **3rd** prize for Band C in 2015 National English Competition for College, College English Teaching & Research Association of China(top3%)	
+- 12/2014  The **2nd** prize in Mathematics competition, Beijing Union University (top5%)	
+- 11/2014  Third-class Scholarship, Beijing Union University (top10%)	
 
 ## PERSONAL SKILLS
 
 - Computer: Python (NumPy, Pandas, Scikit-learn), Java, C++
-- Data Analysis: SQL, SPSS
+- Data Analysis: SQL, SPSS, Clementine
 - Design Software: Auto CAD, Sketch Up, Axure, X-Mind
 - Simulation Software: FlexSim, AnyLogic
 - Office Software: Proficient in PPT (animation, Boolean operation, etc.) / Excel / Word
