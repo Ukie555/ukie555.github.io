@@ -62,7 +62,7 @@
 - Through the continuous recognition and learning of 0 to 1 and A to Z, and the character recognition of the license plate number. And use K-NN algorithm to automatically recognize and transform the segmented character image
 - **Conclusion:** The test training set ranges from 10 to 2000, and the accuracy ranges from 0.5633 to 0.7220. Finally applied to the JD Logistics digital platform to monitor vehicle throughput
 
-'''
+```
 import seaborn as sns
 sns.set()
 
@@ -95,7 +95,7 @@ for train_num in train_range:
     accuracy = accuracy_score(p_test, y_test)
     acc_lst.append(accuracy)
     print('train: {}, accuracy: {:<.4f}'.format(train_num, accuracy))
-'''
+```
 
 #### JD Logistics-Warehouse Strategy Optimization(07/2021-12/2021)
 - Aiming at the optimal number of task orders, total picking storage digits, picking lanes, and cross lanes as the goal, a Multi-Objective Planning Algorithm based on savings gains is used to optimize the warehouse picking path 
