@@ -6,9 +6,11 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 - 5-year working experience in two Fortune 500 enterprises
 - Business Analysis and Product Design @JD Logistics, Beijing, China
 - Build Xiaomi Logistics Operation System from 0 to 1 @Xiaomi Logistics, Beijing, China
+
 **Leadership:**
 - Leader of Warehouse Operation Planning Team in Xiaomi, with 3 direct subordinates
 - Leader of Supply Chain Process Planning Team in JD Logistics with 2 direct subordinates
+
 **Others:**
 - Product Design/Data Analysis/Operations Research/Machine Learning/Supply Chain Management
 - PMP: Project Management Professional (PMP Number:3112138)
@@ -107,36 +109,36 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 
 ## CERTIFICATE
 
-- 06/2021  [PMP: Project Management Professional(PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
-- 06/2021  [Microsoft Certified: Platform Fundamentals(H847-4614)](https://www.credly.com/badges/eec36871-7ca2-4b3b-becf-e2b8764f0233)
-- 04/2021  [Microsoft Certified: Azure AI Fundamentals(H767-5629)](https://www.credly.com/badges/1687fb19-95f4-454e-a534-35fc8b043f0b)
-- 02/2021  [IBM Data Analysis and Visualization Foundations](https://coursera.org/share/6b2f8c5c0dd6bc0716a6311ef2355316) - Coursera(J9V63CJ75XE6)
-- 10/2020  [IBM Data Science Professional Certificate](https://coursera.org/share/8f009ab1e24a447a1ff6e0aea0df839d) - Coursera(TDBND5A6J7TM)
-- 02/2017  KingView application engineer certification
-- 03/2016  CLFP - Logistics Division Level Certification - Intermediate Logistics Division(1620100002)
-- 03/2016  Omron industrial automation skills certificate(PXIAB160501001)
+- 06/2021   [PMP: Project Management Professional(PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
+- 06/2021   [Microsoft Certified: Platform Fundamentals(H847-4614)](https://www.credly.com/badges/eec36871-7ca2-4b3b-becf-e2b8764f0233)
+- 04/2021   [Microsoft Certified: Azure AI Fundamentals(H767-5629)](https://www.credly.com/badges/1687fb19-95f4-454e-a534-35fc8b043f0b)
+- 02/2021   [IBM Data Analysis and Visualization Foundations](https://coursera.org/share/6b2f8c5c0dd6bc0716a6311ef2355316) - Coursera(J9V63CJ75XE6)
+- 10/2020   [IBM Data Science Professional Certificate](https://coursera.org/share/8f009ab1e24a447a1ff6e0aea0df839d) - Coursera(TDBND5A6J7TM)
+- 02/2017   KingView application engineer certification
+- 03/2016   CLFP - Logistics Division Level Certification - Intermediate Logistics Division(1620100002)
+- 03/2016   Omron industrial automation skills certificate(PXIAB160501001)
 
 ## HONORS & AWARDS      
                                                                         
-- 11/2021  Q3 Value Star, JD Logistics, Supply chain product group(top3%)	
-- 11/2017  Outstanding Project Award, China Federation of Logistics and Purchasing (top1%)	
-- 06/2017  Outstanding graduate, Beijing Union University (top3%)	
-- 06/2017  Outstanding Graduation Project, Beijing Union University (top3%)	
-- 12/2015  The **1st** prize in the competition of the 1st Logistics Design Contest, Beijing Union University(top1%)	
-- 11/2015  The **3rd** prize in the competition of the 4th Logistics Design Contest for Beijing University Students, Beijing Municipal Education Commission (top3%)	
-- 11/2015  Second-class Scholarship, Beijing Union University (top5%)	
-- 05/2015  The **3rd** prize for Band C in 2015 National English Competition for College, College English Teaching & Research Association of China(top3%)	
-- 12/2014  The **2nd** prize in Mathematics competition, Beijing Union University (top5%)	
-- 11/2014  Third-class Scholarship, Beijing Union University (top10%)	
+- 11/2021   Q3 Value Star, JD Logistics, Supply chain product group(top3%)	
+- 11/2017   Outstanding Project Award, China Federation of Logistics and Purchasing (top1%)	
+- 06/2017   Outstanding graduate, Beijing Union University (top3%)	
+- 06/2017   Outstanding Graduation Project, Beijing Union University (top3%)	
+- 12/2015   The **1st** prize in the competition of the 1st Logistics Design Contest, Beijing Union University(top1%)	
+- 11/2015   The **3rd** prize in the competition of the 4th Logistics Design Contest for Beijing University Students, Beijing Municipal Education Commission (top3%)	
+- 11/2015   Second-class Scholarship, Beijing Union University (top5%)	
+- 05/2015   The **3rd** prize for Band C in 2015 National English Competition for College, College English Teaching & Research Association of China(top3%)	
+- 12/2014   The **2nd** prize in Mathematics competition, Beijing Union University (top5%)	
+- 11/2014   Third-class Scholarship, Beijing Union University (top10%)	
 
 ## PERSONAL SKILLS
 
-- Computer: Python (NumPy, Pandas, Scikit-learn), Java, C++
-- Data Analysis: SQL, SPSS, Clementine
-- Design Software: Auto CAD, Sketch Up, Axure, X-Mind
-- Simulation Software: FlexSim, AnyLogic
-- Office Software: Proficient in PPT (animation, Boolean operation, etc.) / Excel / Word
-- Others: Product Design, Data Analysis, Business Analysis, Process Optimization, System Optimization
+- **Computer:** Python (NumPy, Pandas, Scikit-learn), Java, C++
+- **Data Analysis:** SQL, SPSS, Clementine
+- **Design Software:** Auto CAD, Sketch Up, Axure, X-Mind
+- **Simulation Software:** FlexSim, AnyLogic
+- **Office Software:** Proficient in PPT (animation, Boolean operation, etc.) / Excel / Word
+- **Others:** Product Design, Data Analysis, Business Analysis, Process Optimization, System Optimization
 
 
 
