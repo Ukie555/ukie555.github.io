@@ -13,7 +13,7 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 
 **Others:**
 - Product Design/Data Analysis/Operations Research/Machine Learning/Supply Chain Management
-- [PMP: Project Management Professional(PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
+- [PMP: Project Management Professional (PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
 - Personality: INTJ
 - [Badge Dashboard](https://www.credly.com/users/chen-gao.4f536ede)
 
