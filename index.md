@@ -12,7 +12,8 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 - Leader of Supply Chain Process Planning Team in JD Logistics with 2 direct subordinates
 
 **Others:**
-- Product Design/Data Analysis/Operations Research/Machine Learning/Supply Chain Management
+- Data Analysis/Machine Learning
+- Product Design/Operations Research/Supply Chain Management
 - [PMP: Project Management Professional (PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
 - Personality: INTJ
 - [Badge Dashboard](https://www.credly.com/users/chen-gao.4f536ede)
@@ -55,8 +56,32 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 - Model and simulate the picking path in the warehouse with Flexsim, verify the shortest path algorithm based on Operations Research and improve the warehouse picking efficiency by 13%
 
 
-
 ## PROJECT EXPERIENCE
+
+### DATA ANALYSIS TOPIC / ALGORITHM DESIGN / INFORMATION SYSTEM
+
+#### JD Logistics-5G Smart Park- License Plate Recognition(10/2021-12/2012)
+- Through the continuous recognition and learning of 0 to 1 and A to Z, and the character recognition of the license plate number. And use K-NN algorithm to automatically recognize and transform the segmented character image
+- **Conclusion:** The test training set ranges from 10 to 2000, and the accuracy ranges from 0.5633 to 0.7220. Finally applied to the JD Logistics digital platform to monitor vehicle throughput
+
+#### JD Logistics-Warehouse Strategy Optimization(07/2021-12/2021)
+- Aiming at the optimal number of task orders, total picking storage digits, picking lanes, and cross lanes as the goal, a Multi-Objective Planning Algorithm based on savings gains is used to optimize the warehouse picking path 
+- Use AB Test to verify the results, 1:1 split the orders of the old and new algorithm strategies, and analyze the result
+- **Conclusion:** At present, 253 warehouses have been launched online, improving warehouse picking efficiency by 5.3% and reducing personnel costs by about 20 million yuan/year
+
+#### Xiaomi Logistics-National Warehousing Network Planning(03/2018-05/2020)
+- Use Python crawlers to extract warehouse service information, and use Sklearn to establish correlation analysis with Xiaomi business, and then	 select warehouse locations to increase product coverage (that is, to ensure that orders in various regions can meet user needs). Finally output a national warehouse network planning plan
+- **Conclusion:** The national product coverage increased by 5%
+
+#### Beijing Union University-Construction of Temperature and Humidity Monitoring System(09/2016-11/2016)
+- System construction: The upper computer uses the Qt platform (C++) for software system development, and connects with the database to realize data storage
+- The lower computer is composed of temperature and humidity wireless sensor nodes, which realize the collection of temperature and humidity data through the wireless sensor network and transmit it to the upper computer
+- **Conclusion:** Build a database platform through SQL Server and design a software system for the temperature and humidity monitoring system of finished grains to improve the efficiency, real-time and accuracy of storage environment monitoring
+
+
+
+
+
 
 #### JD Logistics - Digital Warehouse LV System Optimization (03/2021-07/2021)
 **Project Description:**
