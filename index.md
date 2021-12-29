@@ -13,7 +13,7 @@ You can use the [editor on GitHub](https://github.com/Ukie555/ukie555.github.io/
 
 **Others:**
 - Product Design/Data Analysis/Operations Research/Machine Learning/Supply Chain Management
-- PMP: Project Management Professional (PMP Number:3112138)
+- [PMP: Project Management Professional(PMP Number:3112138)](https://www.credly.com/badges/66460168-e03d-4748-9aea-1bc5590fa02f/public_url)
 - Personality: INTJ
 - [Badge Dashboard](https://www.credly.com/users/chen-gao.4f536ede)
 
@@ -84,9 +84,9 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 - System optimization: Optimized the WMS3.0 system of Xiaomi Logistics, put forward more than 40 system requirements within a year, and improved operation efficiency by 23%; Based on the characteristics of millet logistics from 0 to 1 design millet logistics WMS Pro system, currently version 1.0 has been used in the standard parts warehouse.
 
 **Project income:**
-- Build Xiaomi B2B warehouse operation management system from 0 to 1;
-- Develop Xiaomi warehouse operation KPI assessment scheme from 0 to 1;
-- The national local satisfaction rate increased by 11%; 
+- Build Xiaomi B2B warehouse operation management system from 0 to 1
+- Develop Xiaomi warehouse operation KPI assessment scheme from 0 to 1
+- The national local satisfaction rate increased by 11%
 - Warehouse service NPS increased by 8%; (5) The national average unit cost is reduced by 0.11 yuan/piece.
 
 
@@ -98,13 +98,13 @@ _As the project manager, consolidate Xiaomi logistics operation characteristics 
 -Use AutoCAD to make warehouse maps of 2 medical distribution centers
 - Based on the mileage saving algorithm, the confluence can be reduced by reducing the number of picking storage and the number of crossing tunnels. Improve order saturation of each collection order to optimize the pick path in the warehouse (C++)
 - Based on the actual warehouse CAD, the algorithm in the warehouse is verified, and the picking path in the warehouse is optimized with FlexSim simulation software, which improves the efficiency by 13%
-- AnyLogic simulation software was used to simulate two schemes for the pharmaceutical distribution path in Beijing: judging the transport path by the shortest path and the degree of drug emergency;
+- AnyLogic simulation software was used to simulate two schemes for the pharmaceutical distribution path in Beijing: judging the transport path by the shortest path and the degree of drug emergency
 
 **_Chen Gao, Siqi Zhang, Rui Zhang, Xiuying Wang, Jingyun Liu. Design of Temperature and Humidity Monitoring System for Grain Storage Environment based on Wireless Sensor Network [J]. Internet of Things Technology. 2017(03). F324.9, TP274_**
 
 - System construction: The structure of temperature and humidity monitoring system for grain storage includes two parts: upper computer and lower computer. Based on the upper computer using Qt platform (C++) software system development, and connected with the database, data storage. The lower computer is composed of temperature and humidity wireless sensor nodes. The temperature and humidity data are collected and transmitted to the upper computer through the wireless sensor network
 - The database platform was built through SQL Server and the software system of temperature and humidity monitoring system for finished grain was designed to improve the efficiency, real-time and accuracy of warehouse environmental monitoring
-- Record and collect the data of grain temperature, and test it based on the storage environment;
+- Record and collect the data of grain temperature, and test it based on the storage environment
 
 
 ## CERTIFICATE
