@@ -1,6 +1,7 @@
 <footer class="footer">
-    <div class="text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">{{ site.data.data.footer }}</small>
-    </div><!--//container-->
-</footer><!--//footer-->
+  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
+</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/github_api.js?{{site.time | date: '%s%N'}}"></script>

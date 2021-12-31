@@ -1,18 +1,35 @@
 ---
 layout: default
+robots: noindex
 ---
 
+<!--<div class="main-post-list">-->
 
-{% include career-profile.html %}
+  <ul class="timeline">
+    
+    {% for project in site.data.projects %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="{{ project.link }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
 
-{% include experiences.html %}
+<!--</div>-->
 
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
