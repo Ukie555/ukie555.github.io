@@ -21,7 +21,7 @@
 - name: National Xiaomi Warehouse Information System Management in Xiaomi Logistics (03/2018 - 05/2020)
   link: download/xiaomi_warehouse_system.pdf
   img: images/milogistics.png
-  desc: Programmed a Python crawler to extract warehouse business information, used Scikit-Learn to conduct correlation analysis. Through making a warehouse network planning plan, optimizing the warehouse operational process,  formulating warehouse KPIs management plan to build a Xiaomi Warehouse Information System.
+  desc: Programmed a Python crawler to extract warehouse business information, used Scikit-Learn to conduct correlation analysis. Through making a warehouse network planning plan, optimizing the warehouse operational process, and formulating warehouse KPIs management plan to build a Xiaomi Warehouse Information System.
 
 
 - name: Development of Temperature and Humidity Monitoring System in Beijing Union University (09/2016 - 11/2016)
