@@ -20,7 +20,6 @@
   desc: Proposed a Multi-Objective Planning Algorithm based on savings gain to optimize the warehouse picking path with the optimal number of order sets, total picking storage units, total storage areas and cross lanes as the goal. Conclusion - So far, the Multi-Objective Planning Algorithm has been applied to 253 warehouses, improving the warehouse picking efficiency by 5.3% and reducing the cost of pickers by about 20 million RMB per year.
 
 
-
 - name: Xiaomi Logistics Service Quality Prediction @Xiaomi Logistics (02/2020 - 04/2020)
   link: download/xiaomi_nps_prediction.pdf
   img: images/minps.png
