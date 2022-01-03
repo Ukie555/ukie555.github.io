@@ -8,7 +8,7 @@
 
 - name: Warehouse Optimization in JD Logistics (07/2021 - 12/2021)
   link: download/warehouse_optimization.pdf
-  img: images/picker.png
+  img: images/picker.jpeg
   desc: Proposed a Multi-Objective Planning Algorithm based on savings gain to optimize the warehouse picking path with the optimal number of order sets, total picking storage units, total storage areas and cross lanes as the goal. Conclusion - So far, the Multi-Objective Planning Algorithm has been applied to 253 warehouses, improving the warehouse picking efficiency by 5.3% and reducing the cost of pickers by about 20 million RMB per year
 
 
@@ -26,5 +26,5 @@
 
 - name: Supply Chain Capacity Center Information System Design in JD Logistics (09/2016 - 11/2016)
   link: download/warehouse_optimization.pdf
-  img: center/sensor.png
+  img: images/center.png
   desc: Used the Qt platform (C++) and SQL Server to develop a software system to monitor temperature and humidity of finished grain. Then used the interpolation method to fit the data to obtain the temperature and humidity distribution, which improved the efficiency, real-time and accuracy of the system. Conclusion - Developed a temperature and humidity monitoring software system to complete data collection and storage, which provided an effective monitoring method for the safe storage of finished grains.
