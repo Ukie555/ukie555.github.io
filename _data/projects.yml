@@ -3,8 +3,7 @@
 - name: License Plate Recognition for 5G Smart Park in JD Logistics
   link: download/warehouse_optimization.pdf
   img: images/video.png
-  desc: Used the k-NN algorithm to automatically recognize the numbers in the license plate images
-  desc: Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput
+  desc: Used the k-NN algorithm to automatically recognize the numbers in the license plate images. Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput
 
 
 
