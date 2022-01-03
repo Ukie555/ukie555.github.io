@@ -1,11 +1,9 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Video networking technology for 5G Smart Park @JD Logistics (10/2021 - 12/2012)
+- name: Video Networking Technology for 5G Smart Park @JD Logistics (10/2021 - 12/2012)
   link: download/5g_smart_park.pdf
   img: images/video.png
-  desc: ｜
-  With technology-driven business as the fundamental purpose, we use video networking technology to perform video backtracking on the packing table in the warehouse; use edge computing technology to monitor the throughput of the warehouse platform through video networking and JD Logistics' self-developed license plate recognition algorithm. The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. 
-  The model was applied to the JD Logistics digital platform to monitor vehicle throughput。
+  desc: With technology-driven business as the fundamental purpose, we use video networking technology to perform video backtracking on the packing table in the warehouse; use edge computing technology to monitor the throughput of the warehouse platform through video networking and JD Logistics' self-developed license plate recognition algorithm. The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput。
 
 
 - name: Supply Chain Capacity Center Information System Design @JD Logistics (09/2021 - 12/2021)
