@@ -1,6 +1,6 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Video networking technology for 5G Smart Park in JD Logistics (10/2021 - 12/2012)
+- name: Video networking technology for 5G Smart Park @JD Logistics (10/2021 - 12/2012)
   link: download/5g_smart_park.pdf
   img: images/video.png
   desc: ｜
@@ -8,25 +8,50 @@
   The model was applied to the JD Logistics digital platform to monitor vehicle throughput。
 
 
-- name: Supply Chain Capacity Center Information System Design in JD Logistics (09/2021 - 12/2021)
+- name: Supply Chain Capacity Center Information System Design @JD Logistics (09/2021 - 12/2021)
   link: download/capacity_center_information_system.pdf
   img: images/center.png
   desc: Disassembled indicators and process actions on JD warehouses to achieve top-down business standardization and cost visualization. Conclusion - Through the cooperation with the software engineers, this system can be successfully launched online under my product design, which can realize the configuration and construction of warehouse capacity in each link and make the supply chain cost structure more clear and transparent.
 
 
-- name: Warehouse Optimization in JD Logistics (07/2021 - 12/2021)
+- name: Warehouse Optimization @JD Logistics (07/2021 - 12/2021)
   link: download/warehouse_optimization.pdf
   img: images/picker.jpeg
   desc: Proposed a Multi-Objective Planning Algorithm based on savings gain to optimize the warehouse picking path with the optimal number of order sets, total picking storage units, total storage areas and cross lanes as the goal. Conclusion - So far, the Multi-Objective Planning Algorithm has been applied to 253 warehouses, improving the warehouse picking efficiency by 5.3% and reducing the cost of pickers by about 20 million RMB per year.
 
 
-- name: National Xiaomi Warehouse Information System Management in Xiaomi Logistics (03/2018 - 05/2020)
+
+- name: Xiaomi Logistics Service Quality Prediction @Xiaomi Logistics (02/2020 - 04/2020)
+  link: download/xiaomi_nps_prediction.pdf
+  img: images/minps.png
+  desc: Extracted evaluation eigenvalues, and used two ensemble learning algorithms (Bagging, AdaBoost.M1) with SVM and Decision Tree to predict the service quality of Xiaomi logistics
+
+
+- name: Promotional forecasting in Xiaomi Logistics Business @Xiaomi Logistics (07/2019 - 09/2019)
+  link: download/xiaomi_promotional_forecasting.pdf
+  img: images/miforecasting.png
+  desc: Established regression models using Scikit-Learn based on historical sales data and past event to determine a seasonal time series model to describe the purchasing behavior of consumers
+
+
+- name: National Warehousing Network Planning @Xiaomi Logistics (07/2018 - 05/2020)
+  link: download/xiaomi_network_planning.pdf
+  img: images/minetwork.png
+  desc: Performed cluster analysis on regional order data, constructed a feature vector to represent customer distribution and made plans to ensure that more than 95% of orders can be delivered the next day, and then selected warehouse locations to increase commodity coverage.
+
+
+- name: National Xiaomi Warehouse Information System Management @Xiaomi Logistics (03/2018 - 05/2020)
   link: download/xiaomi_warehouse_system.pdf
   img: images/milogistics.png
   desc: Programmed a Python crawler to extract warehouse business information, used Scikit-Learn to conduct correlation analysis. Through making a warehouse network planning plan, optimizing the warehouse operational process, and formulating warehouse KPIs management plan to build a Xiaomi Warehouse Information System.
 
 
-- name: Development of Temperature and Humidity Monitoring System in Beijing Union University (09/2016 - 11/2016)
+- name: Analysis and Optimization of Operational Process of Pharmaceutical Logistics Distribution Center @Beijing Union University (01/2017 - 05/2017)
+  link: download/buu_logistics_dc.pdf
+  img: images/buulogistics.jpg
+  desc: Choose 2 out of 67 distribution centers in Beijing as the pharmaceutical logistics distribution center and used AutoCAD and SketchUp to create 3D warehouse drawings. In the warehouse picking strategy, the savings algorithm is used to form 62 order sets from 2057 orders randomly selected in Beijing, and the ant colony algorithm is used to optimize the picking path. The main method used in the distribution process is to use the traveling salesman problem (TSP) algorithm based on heuristics to plan the path of the pharmaceutical distribution process. Finally, the simulation software FlexSim and AnyLogic were used to verify the algorithm scheme.
+
+
+- name: Development of Temperature and Humidity Monitoring System @Beijing Union University (09/2016 - 11/2016)
   link: download/monitoring_system.pdf
   img: images/sensor.png
   desc: Used the Qt platform (C++) and SQL Server to develop a software system to monitor temperature and humidity of finished grain. Then used the interpolation method to fit the data to obtain the temperature and humidity distribution, which improved the efficiency, real-time and accuracy of the system. The system can complete data collection and storage, which provided an effective monitoring method for the safe storage of finished grains.
