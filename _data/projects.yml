@@ -3,7 +3,8 @@
 - name: License Plate Recognition for 5G Smart Park in JD Logistics (10/2021 - 12/2012)
   link: download/warehouse_optimization.pdf
   img: images/video.png
-  desc: Used the k-NN algorithm to automatically recognize the numbers in the license plate images. Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput
+  desc: Used the k-NN algorithm to automatically recognize the numbers in the license plate images. 
+  Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput
 
 
 - name: Warehouse Optimization in JD Logistics (07/2021 - 12/2021)
@@ -28,3 +29,5 @@
   link: download/warehouse_optimization.pdf
   img: images/center.png
   desc: Used the Qt platform (C++) and SQL Server to develop a software system to monitor temperature and humidity of finished grain. Then used the interpolation method to fit the data to obtain the temperature and humidity distribution, which improved the efficiency, real-time and accuracy of the system. Conclusion - Developed a temperature and humidity monitoring software system to complete data collection and storage, which provided an effective monitoring method for the safe storage of finished grains.
+
+
