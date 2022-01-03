@@ -1,9 +1,11 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Warehouse
+- name: License Plate Recognition for 5G Smart Park in JD Logistics
   link: download/warehouse_optimization.pdf
-  img: images/gomoku.png
-  desc: A Gomoku web application based on the AlphaZero model. AlphaZero was published by Google DeepMind in 2017, and I implemented it to power the Gomoku web application, which replaces hand-crafted heuristics used in AlphaGo with deep neural networks and Monte Carlo Tree Search (MCTS) to learn how to play games from scratch. 
+  img: images/video.png
+  desc: Used the k-NN algorithm to automatically recognize the numbers in the license plate images
+  desc: Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput
+
 
 
 - name: Optimization
