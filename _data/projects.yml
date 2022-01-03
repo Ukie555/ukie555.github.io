@@ -6,6 +6,12 @@
   desc: With technology-driven business as the fundamental purpose, we use video networking technology to perform video backtracking on the packing table in the warehouse; use edge computing technology to monitor the throughput of the warehouse platform through video networking and JD Logistics' self-developed license plate recognition algorithm. Conclusion - The training set ranged from 10 to 2000, and the accuracy ranged from 0.5633 to 0.7220. The model was applied to the JD Logistics digital platform to monitor vehicle throughput。
 
 
+- name: Supply Chain Capacity Center Information System Design in JD Logistics (09/2021 - 12/2021)
+  link: download/capacity_center_information_system.pdf
+  img: images/center.png
+  desc: Disassembled indicators and process actions on JD warehouses to achieve top-down business standardization and cost visualization. Conclusion - Through the cooperation with the software engineers, this system can be successfully launched online under my product design, which can realize the configuration and construction of warehouse capacity in each link and make the supply chain cost structure more clear and transparent.
+
+
 - name: Warehouse Optimization in JD Logistics (07/2021 - 12/2021)
   link: download/warehouse_optimization.pdf
   img: images/picker.jpeg
@@ -13,7 +19,7 @@
 
 
 - name: National Warehousing Network Planning in Xiaomi Logistics (03/2018 - 05/2020)
-  link: download/warehouse_optimization.pdf
+  link: download/xiaomi_warehouse_system.pdf
   img: images/milogistics.png
   desc: Programmed a Python crawler to extract warehouse service information, used Scikit-Learn to conduct correlation analysis, and then selected warehouse locations to increase commodity coverage. Conclusion - The national commodity coverage was increased by 5%。
 
@@ -22,11 +28,3 @@
   link: download/monitoring_system.pdf
   img: images/sensor.png
   desc: Used the Qt platform (C++) and SQL Server to develop a software system to monitor temperature and humidity of finished grain. Then used the interpolation method to fit the data to obtain the temperature and humidity distribution, which improved the efficiency, real-time and accuracy of the system. Conclusion - Developed a temperature and humidity monitoring software system to complete data collection and storage, which provided an effective monitoring method for the safe storage of finished grains.
-
-
-- name: Supply Chain Capacity Center Information System Design in JD Logistics (09/2016 - 11/2016)
-  link: download/warehouse_optimization.pdf
-  img: images/center.png
-  desc: Used the Qt platform (C++) and SQL Server to develop a software system to monitor temperature and humidity of finished grain. Then used the interpolation method to fit the data to obtain the temperature and humidity distribution, which improved the efficiency, real-time and accuracy of the system. Conclusion - Developed a temperature and humidity monitoring software system to complete data collection and storage, which provided an effective monitoring method for the safe storage of finished grains.
-
-
