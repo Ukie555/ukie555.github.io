@@ -2,7 +2,7 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Planning and development information system based on AI recommendation algorithm (Intelligent Planning Master System, IPM System) (08/2022 - )
   link: download/AI_Recommendation_Info_System.pdf
-  img: images/video.png
+  img: images/airecsys.png
   desc: The IPM system carries out career or academic further study planning for users at different stages and matches individual development plans.
 
 - name: Video Networking Technology for 5G Smart Park @JD Logistics (10/2021 - 12/2012)
